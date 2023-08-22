@@ -1,16 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ASP.NETCoreWebApplication1.Controllers;
+namespace ai.kanva.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/kanva")]
 public class KanvaController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing moon", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
     private readonly ILogger<KanvaController> _logger;
 
     public KanvaController(ILogger<KanvaController> logger)
@@ -18,15 +13,11 @@ public class KanvaController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet]
-    public IEnumerable<WeatherForecast> Get()
+    [HttpPost("HandleImageByteArray")]
+    public void HandleImageByteArray(object? imageBytes)
     {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+        return;
     }
+
+
 }
