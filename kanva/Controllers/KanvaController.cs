@@ -13,9 +13,14 @@ public class KanvaController : ControllerBase
         _logger = logger;
     }
 
-    [HttpPost("HandleImageByteArray")]
-    public void HandleImageByteArray(object? imageBytes)
+    [HttpPost]
+    [RequestSizeLimit(100_000_000)]
+    public void HandleImageByteArray(Dictionary<string, byte> imageBytesDictionary)
     {
+        var imageBytes = imageBytesDictionary.Values.ToList();
+        
+        //do magic.ai
+        
         return;
     }
 

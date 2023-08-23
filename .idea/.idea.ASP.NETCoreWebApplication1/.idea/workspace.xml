@@ -8,22 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14013022-892d-4d4f-9b0f-5087d0380b15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ASP.NETCoreWebApplication1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ASP.NETCoreWebApplication1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/ClientApp/src/components/Editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/ClientApp/src/components/Editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/ClientApp/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/ClientApp/src/setupProxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/Controllers/KanvaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/Controllers/KanvaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/Pages/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/Pages/Error.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/Pages/Error.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/Pages/Error.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/Pages/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanva/kanva.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/kanva/kanva.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="14013022-892d-4d4f-9b0f-5087d0380b15" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +104,7 @@
       <workItem from="1691760495344" duration="985000" />
       <workItem from="1692601803742" duration="2004000" />
       <workItem from="1692606195019" duration="11828000" />
-      <workItem from="1692682383563" duration="12800000" />
+      <workItem from="1692682383563" duration="16726000" />
     </task>
     <servers />
   </component>
